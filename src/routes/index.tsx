@@ -5,9 +5,9 @@ import { Intro, Services, Industries, Stats, Timeline, Testimonials, FAQ, Contac
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SinghBouncers — Premium Private Security Services" },
-      { name: "description", content: "Manned guarding, executive protection, CCTV and integrated security services. Licensed, verified, 24/7." },
-      { property: "og:title", content: "SinghBouncers — Premium Private Security Services" },
+      { title: "SinghBouncers — Premium Private Security Services | Pune" },
+      { name: "description", content: "Manned guarding, bouncers, lady bouncers, executive protection, CCTV and integrated security services in Pune. GST registered, PASARA approved, government registered, 24/7." },
+      { property: "og:title", content: "SinghBouncers — Premium Private Security Services | Pune" },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],

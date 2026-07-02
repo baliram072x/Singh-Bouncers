@@ -17,7 +17,6 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Header } from "../components/site/Header";
 import { Footer } from "../components/site/Footer";
 import { WhatsAppButton } from "../components/site/WhatsAppButton";
@@ -45,9 +44,6 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
-  useEffect(() => {
-    reportLovableError(error, { boundary: "tanstack_root_error_component" });
-  }, [error]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -75,25 +71,44 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SinghBouncers — Premium Private Security Services" },
-      { name: "description", content: "Licensed, verified, 24/7 private security services: manned guarding, executive protection, surveillance and integrated risk solutions." },
-      { name: "theme-color", content: "#0a1530" },
+      { title: "SinghBouncers — Premium Private Security Services | Pune" },
+      { name: "description", content: "GST Registered, PASARA Approved, Government Registered security services in Pune. Bouncers, Lady Bouncers, Manned Guarding, Executive Protection, CCTV & more." },
+      { name: "theme-color", content: "#1a2f4f" },
       { property: "og:site_name", content: "SinghBouncers" },
       { property: "og:type", content: "website" },
-      { property: "og:title", content: "SinghBouncers — Premium Private Security Services" },
-      { property: "og:description", content: "Licensed, verified, 24/7 private security services trusted across industries." },
+      { property: "og:title", content: "SinghBouncers — Premium Private Security Services | Pune" },
+      { property: "og:description", content: "GST Registered, PASARA Approved, Government Registered security services in Pune. Bouncers, Lady Bouncers, Manned Guarding, Executive Protection, CCTV & more." },
+      { property: "og:image", content: "/logo.png" },
+      { property: "og:url", content: "/" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "SinghBouncers — Premium Private Security Services | Pune" },
+      { name: "twitter:description", content: "GST Registered, PASARA Approved, Government Registered security services in Pune." },
+      { name: "twitter:image", content: "/logo.png" },
     ],
-    links: [{ rel: "stylesheet", href: appCss }],
+    links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", type: "image/png", href: "/logo.png" },
+      { rel: "apple-touch-icon", href: "/logo.png" },
+    ],
     scripts: [{
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "SecurityService",
-        name: "SinghBouncers",
+        name: "SinghBouncers Security Services",
+        description: "GST Registered, PASARA Approved, Government Registered security services in Pune providing bouncers, lady bouncers, manned guarding, executive protection and more.",
         url: "/",
-        telephone: "+1-212-555-0199",
-        address: { "@type": "PostalAddress", streetAddress: "lane no. -1 Sainath nagar, Tithe wasti , pune- 411014", addressLocality: "Pune", addressRegion: "MH", addressCountry: "India" },
+        telephone: "+91-9960113851",
+        email: "singhbouncerssecurityservices@gmail.com",
+        address: { 
+          "@type": "PostalAddress", 
+          streetAddress: "lane no. -1 Sainath nagar, Tithe wasti", 
+          addressLocality: "Pune", 
+          addressRegion: "MH", 
+          postalCode: "411014",
+          addressCountry: "IN" 
+        },
+        openingHours: "Mo-Su 00:00-23:59",
       }),
     }],
   }),

@@ -13,13 +13,13 @@ export function Intro() {
       <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold mb-3">Who We Are</p>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-display">
-          A modern security firm built on <span className="text-gradient-gold">old-school discipline.</span>
+          A modern security firm in Pune built on <span className="text-gradient-gold">old-school discipline.</span>
         </h2>
         <p className="mt-5 text-muted-foreground text-lg">
-          For nearly two decades SinghBouncers has protected enterprises, estates, dignitaries and events with a single standard: world-class people, backed by serious technology and a relentless operations culture.
+          For nearly two decades SinghBouncers has protected enterprises, estates, dignitaries, and events in Pune with a single standard: world-class people, backed by serious technology and a relentless operations culture.
         </p>
         <ul className="mt-6 space-y-2">
-          {["Veteran-led leadership team", "In-house training academy", "24/7 control room", "Integrated tech + manpower model"].map((t) => (
+          {["Veteran-led leadership team", "In-house training academy for bouncers and lady bouncers", "24/7 control room", "Integrated tech + manpower model"].map((t) => (
             <li key={t} className="flex items-center gap-2 text-sm"><Check className="h-4 w-4 text-gold" /> {t}</li>
           ))}
         </ul>
@@ -31,7 +31,7 @@ export function Intro() {
       <div className="grid grid-cols-2 gap-4">
         {[
           { k: "Risk-First", v: "Every engagement starts with a site assessment." },
-          { k: "People-Led", v: "We recruit, train and retain the top 6% of officers." },
+          { k: "People-Led", v: "We recruit, train and retain the top 6% of Security Personals, bouncers, and lady bouncers." },
           { k: "Tech-Enabled", v: "Patrol GPS, body cams and live ops dashboards." },
           { k: "Always-On", v: "A real human answers in under 30 minutes, 24/7." },
         ].map((c, i) => (
