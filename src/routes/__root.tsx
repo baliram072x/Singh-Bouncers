@@ -98,7 +98,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         name: "SinghBouncers Security Services",
         description: "GST Registered, PASARA Approved, Government Registered security services in Pune providing bouncers, lady bouncers, manned guarding, executive protection and more.",
         url: "/",
-        telephone: "+91-9960113851",
+        telephone: "+91-9689483851",
         email: "singhbouncerssecurityservices@gmail.com",
         address: { 
           "@type": "PostalAddress", 

@@ -22,9 +22,26 @@ export function ContactForm() {
   });
 
   const onSubmit = async (data: FormData) => {
-    // Phase 1: stub. Wire to Supabase `enquiries` table in phase 2.
-    await new Promise((r) => setTimeout(r, 600));
-    console.info("[enquiry]", data);
+    // Create WhatsApp message
+    const whatsappMessage = `
+*New Enquiry - SinghBouncers*
+
+👤 Name: ${data.name}
+📧 Email: ${data.email}
+📱 Phone: ${data.phone}
+🛡️ Service: ${data.service}
+💬 Message: ${data.message}
+    `.trim();
+
+    // WhatsApp number (your number with country code)
+    const whatsappNumber = "919689483851";
+
+    // Create WhatsApp URL
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+    // Open WhatsApp
+    window.open(whatsappUrl, "_blank");
+
     setSent(true);
     reset();
     setTimeout(() => setSent(false), 5000);

@@ -52,7 +52,7 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-widest text-gold mb-4">Contact</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
-            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-gold" /> lane no. -1 Sainath nagar, Tithe wasti , pune- 411014</li>
+            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-gold" /> 3, Mundhwa Rd, Lonkar Ali, Magarpatta, Mundhwa</li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-gold" /> 9689483851</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-gold" /> singhbouncerssecurityservices@gmail.com</li>
           </ul>
