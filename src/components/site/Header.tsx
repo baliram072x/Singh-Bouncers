@@ -19,7 +19,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border/60 backdrop-blur-xl bg-background/70">
       <div className="container-x flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          <span className="inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-md">
+          <span className="inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-md">
   <img
     src="/logo.png"
     alt="Singh Bouncers"
