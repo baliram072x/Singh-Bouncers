@@ -269,7 +269,7 @@ export function ContactBlock() {
        <div className="mt-8 rounded-xl overflow-hidden border border-border aspect-[16/10]">
   <iframe
     title="Map"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.0061803601553!2d73.93424547506113!3d18.536676269243395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c17d5185fa4b%3A0x68440616f868f907!2sMorewada%20Ganesh%20Chowk%2C%20Mundhwa%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1783073090832!5m2!1sen!2sin"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6846.523681241709!2d73.934245!3d18.536697!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1582030967b%3A0x5d20d33359aca2a5!2sSINGH%20BOUNCERS%20%26%20SECURITY%20SERVICES!5e1!3m2!1sen!2sin!4v1782956878100!5m2!1sen!2sin"
     className="w-full h-full border-0"
     loading="lazy"
     allowFullScreen
