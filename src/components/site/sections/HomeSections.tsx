@@ -262,18 +262,18 @@ export function ContactBlock() {
           description="Our security advisors will respond within one business hour."
         />
         <div className="mt-8 space-y-4 text-sm">
-          <div className="flex items-center gap-3"><MapPin className="h-5 w-5 text-gold" />  lane no. -1 Sainath nagar, Tithe wasti , pune- 411014</div>
-          <div className="flex items-center gap-3"><Phone className="h-5 w-5 text-gold" /> 9960113851</div>
+          <div className="flex items-center gap-3"><MapPin className="h-5 w-5 text-gold" /> 3, Mundhwa Rd, Lonkar Ali, Magarpatta, Mundhwa, Pune, Maharashtra 411036</div>
+          <div className="flex items-center gap-3"><Phone className="h-5 w-5 text-gold" /> 9689483851</div>
           <div className="flex items-center gap-3"><Mail className="h-5 w-5 text-gold" /> singhbouncerssecurityservices@gmail.com</div>
         </div>
        <div className="mt-8 rounded-xl overflow-hidden border border-border aspect-[16/10]">
   <iframe
     title="Map"
-    src="https://www.google.com/maps?q=Sainath%20Nagar%20Thite%20Wasti%20Pune&output=embed"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3423.311861495353!2d73.9319!3d18.5342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c18103d63b9f%3A0xcc2a885f7c4adfeb!2s3%2C%20Mundhwa%20Rd%2C%20Lonkar%20Ali%2C%20Magarpatta%2C%20Mundhwa%2C%20Pune%2C%20Maharashtra%20411036!5e1!3m2!1sen!2sin!4v1782954323400!5m2!1sen!2sin"
     className="w-full h-full border-0"
     loading="lazy"
     allowFullScreen
-    referrerPolicy="no-referrer-when-downgrade"
+    referrerPolicy="strict-origin-when-cross-origin"
   />
 </div>
       </div>

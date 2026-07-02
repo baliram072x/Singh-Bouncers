@@ -102,10 +102,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         email: "singhbouncerssecurityservices@gmail.com",
         address: { 
           "@type": "PostalAddress", 
-          streetAddress: "lane no. -1 Sainath nagar, Tithe wasti", 
+          streetAddress: "3, Mundhwa Rd, Lonkar Ali, Magarpatta, Mundhwa", 
           addressLocality: "Pune", 
           addressRegion: "MH", 
-          postalCode: "411014",
+          postalCode: "411036",
           addressCountry: "IN" 
         },
         openingHours: "Mo-Su 00:00-23:59",
