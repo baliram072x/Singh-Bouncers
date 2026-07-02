@@ -6,9 +6,9 @@ import { Check } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About SinghBouncers — Discipline, Discretion, Trust | Pune" },
+      { title: "About Singh Bouncers & Security Services — Discipline, Discretion, Trust | Pune" },
       { name: "description", content: "Veteran-led, ISO 9001 certified private security firm in Pune protecting enterprises, estates and events for nearly two decades with bouncers, lady bouncers, and more." },
-      { property: "og:title", content: "About SinghBouncers | Pune" },
+      { property: "og:title", content: "About Singh Bouncers & Security Services | Pune" },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
@@ -23,7 +23,7 @@ function AboutPage() {
         <div className="container-x text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold">About Us</p>
           <h1 className="mt-3 font-display text-4xl md:text-6xl">A firm built on <span className="text-gradient-gold">trust earned.</span></h1>
-          <p className="mt-5 max-w-2xl mx-auto text-muted-foreground">Founded in 2007 by a small team of veteran protective Security Personals, SinghBouncers has grown into Pune's leading security firm known for one thing above all: Security Personals, bouncers, and lady bouncers you can trust.</p>
+          <p className="mt-5 max-w-2xl mx-auto text-muted-foreground">Founded in 2007 by a small team of veteran protective Security Personals, Singh Bouncers & Security Services has grown into Pune's leading security firm known for one thing above all: Security Personals, bouncers, and lady bouncers you can trust.</p>
         </div>
       </section>
 

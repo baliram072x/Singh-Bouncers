@@ -35,7 +35,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.15 }}
             className="mt-6 text-lg text-muted-foreground max-w-xl"
           >
-            SinghBouncers Security Services provides premium private security in Pune — manned guarding, bouncers, lady bouncers, executive protection, surveillance and integrated risk solutions — for clients who refuse to compromise on safety.
+            Singh Bouncers & Security Services provides premium private security in Pune — manned guarding, bouncers, lady bouncers, executive protection, surveillance and integrated risk solutions — for clients who refuse to compromise on safety.
           </motion.p>
 
           <motion.div

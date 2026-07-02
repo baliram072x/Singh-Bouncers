@@ -61,8 +61,8 @@ export const TIMELINE = [
 ] as const;
 
 export const TESTIMONIALS = [
-  { name: "Marcus Hale", role: "COO, Northcliff Holdings", quote: "SinghBouncers transformed our site security. Their Security Personals are calm, professional, and exceptionally well-trained." },
-  { name: "Dr. Priya Nair", role: "Director, Meridian Hospital", quote: "Hospital environments demand empathy and vigilance in equal measure. SinghBouncers delivers both, consistently." },
+  { name: "Marcus Hale", role: "COO, Northcliff Holdings", quote: "Singh Bouncers & Security Services transformed our site security. Their Security Personals are calm, professional, and exceptionally well-trained." },
+  { name: "Dr. Priya Nair", role: "Director, Meridian Hospital", quote: "Hospital environments demand empathy and vigilance in equal measure. Singh Bouncers & Security Services delivers both, consistently." },
   { name: "Liam Becker", role: "GM, The Rosewood Hotel", quote: "Their concierge security blends seamlessly with our guest experience. We wouldn't trust anyone else." },
   { name: "Anika Roy", role: "Event Director, LUMEN Festival", quote: "From accreditation to crowd flow, their event team made a 40,000-person weekend feel effortless." },
 ] as const;

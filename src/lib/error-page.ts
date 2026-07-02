@@ -3,9 +3,9 @@ export function renderErrorPage(): string {
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>SinghBouncers — Page Error</title>
+    <title>Singh Bouncers & Security Services — Page Error</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="SinghBouncers — Premium Private Security Services in Pune" />
+    <meta name="description" content="Singh Bouncers & Security Services — Premium Private Security Services in Pune" />
     <style>
       body { font: 15px/1.5 system-ui, -apple-system, sans-serif; background: #0a1020; color: #fff; display: grid; place-items: center; min-height: 100vh; margin: 0; padding: 1.5rem; }
       .card { max-width: 28rem; width: 100%; text-align: center; padding: 2rem; }

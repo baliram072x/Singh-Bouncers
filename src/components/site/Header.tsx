@@ -27,8 +27,7 @@ export function Header() {
   />
 </span>
           <div className="leading-tight">
-            <div className="font-display text-lg text-foreground"><span className="text-gold">Singh</span> Bouncers</div>
-            <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Security Services</div>
+            <div className="font-display text-lg text-foreground"><span className="text-gold">Singh</span> Bouncers & Security Services</div>
           </div>
         </Link>
 

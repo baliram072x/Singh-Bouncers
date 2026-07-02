@@ -14,7 +14,7 @@ export function Footer() {
                 className="h-full w-full object-contain"
               />
             </span>
-            <div className="font-display text-lg"><span className="text-gold">Singh</span> Bouncers</div>
+            <div className="font-display text-lg"><span className="text-gold">Singh</span> Bouncers & Security Services</div>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-xs">
             Premium private security and protective services for enterprises, estates, and events — built on discipline, discretion, and trust.

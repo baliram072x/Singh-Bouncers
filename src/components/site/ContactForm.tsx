@@ -24,7 +24,7 @@ export function ContactForm() {
   const onSubmit = async (data: FormData) => {
     // Create WhatsApp message
     const whatsappMessage = `
-*New Enquiry - SinghBouncers*
+*New Enquiry - Singh Bouncers & Security Services*
 
 👤 Name: ${data.name}
 📧 Email: ${data.email}
