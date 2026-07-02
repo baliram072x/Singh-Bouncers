@@ -71,12 +71,25 @@ export function ContactForm() {
         <Field label="Service Required" error={errors.service?.message}>
           <select {...register("service")} className="field" defaultValue="">
             <option value="" disabled>Select a service</option>
-            <option>Manned Guarding</option>
-            <option>Personal Protection</option>
-            <option>CCTV & Surveillance</option>
-            <option>Event Security</option>
-            <option>Corporate Security</option>
-            <option>Other</option>
+            <option>Security Guard Services</option>
+            <option>Campus Perimeter Combat Security</option>
+            <option>Bouncer Security Services</option>
+            <option>Corporate Security Services</option>
+            <option>Security For Mall and Commercial Complexes</option>
+            <option>Security For Celebrities</option>
+            <option>Residential Society or Complexes Security</option>
+            <option>Security for Personal Guard</option>
+            <option>Security For Warehouse Godowns</option>
+            <option>Security For Banks or ATMs</option>
+            <option>Security Services for Hospital</option>
+            <option>Security Services For Educational Institutions</option>
+            <option>Security Guards For Hotels or Restaurants</option>
+            <option>Banking Institutional and Customer Safety</option>
+            <option>Secure Transit Security</option>
+            <option>Real Estate and Market Place Security</option>
+            <option>Women Safety and Transport Security</option>
+            <option>VVIP Security</option>
+            <option>Event Management Security</option>
           </select>
         </Field>
       </div>

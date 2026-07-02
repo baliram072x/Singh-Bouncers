@@ -44,7 +44,7 @@ export function Footer() {
           <h4 className="text-sm font-semibold uppercase tracking-widest text-gold mb-4">Legal</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li><Link to="/privacy" className="hover:text-foreground">Privacy Policy</Link></li>
-            <li><Link to="/terms" className="hover:text-foreground">Terms & Conditions</Link></li>
+            <li><Link to="/terms" className="hover:text-foreground">Terms and Conditions</Link></li>
             <li><Link to="/contact" className="hover:text-foreground">Contact</Link></li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-widest text-gold mb-4">Contact</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
-            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-gold" /> 3, Mundhwa Rd, Lonkar Ali, Magarpatta, Mundhwa</li>
+            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-gold" /> Morewada Ganesh Chowk, Mundhwa, Pune City, Pune, Maharashtra - 411036</li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-gold" /> 9689483851</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-gold" /> singhbouncerssecurityservices@gmail.com</li>
           </ul>

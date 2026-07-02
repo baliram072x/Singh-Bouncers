@@ -72,24 +72,13 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative"
         >
-          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-border surface-card">
+          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-border surface-card flex items-center justify-center">
             <div className="absolute inset-0 bg-[linear-gradient(135deg,oklch(0.22_0.06_260),oklch(0.12_0.02_260))]" />
-            <svg className="absolute inset-0 w-full h-full" viewBox="0 0 400 500" fill="none" aria-hidden>
-              <defs>
-                <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="oklch(0.85 0.12 85)" stopOpacity="0.9" />
-                  <stop offset="100%" stopColor="oklch(0.55 0.10 70)" stopOpacity="0.3" />
-                </linearGradient>
-              </defs>
-              <path d="M200 40 L340 90 L340 240 C340 340 280 420 200 460 C120 420 60 340 60 240 L60 90 Z"
-                stroke="url(#g)" strokeWidth="2" fill="oklch(0.18 0.03 260 / 0.4)" />
-              <path d="M200 100 L290 135 L290 235 C290 305 250 365 200 395 C150 365 110 305 110 235 L110 135 Z"
-                stroke="oklch(0.80 0.14 85 / 0.4)" strokeWidth="1" fill="none" />
-              <g transform="translate(200 250)">
-                <circle r="40" fill="oklch(0.80 0.14 85 / 0.15)" stroke="oklch(0.80 0.14 85 / 0.6)" />
-                <path d="M-14 0 L-4 10 L16 -12" stroke="oklch(0.85 0.12 85)" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-              </g>
-            </svg>
+            <img 
+              src="/logo.png" 
+              alt="Singh Bouncers & Security Services"
+              className="relative z-10 w-3/4 h-3/4 object-contain"
+            />
           </div>
 
           <motion.div

@@ -3,9 +3,9 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/terms")({
   head: () => ({
     meta: [
-      { title: "Terms & Conditions | SinghBouncers" },
+      { title: "Terms and Conditions | SinghBouncers" },
       { name: "description", content: "Terms governing your use of the SinghBouncers website and services." },
-      { property: "og:title", content: "Terms & Conditions | SinghBouncers" },
+      { property: "og:title", content: "Terms and Conditions | SinghBouncers" },
       { property: "og:url", content: "/terms" },
     ],
     links: [{ rel: "canonical", href: "/terms" }],
@@ -13,7 +13,7 @@ export const Route = createFileRoute("/terms")({
   component: () => (
     <article className="container-x max-w-3xl py-20">
       <p className="text-xs uppercase tracking-[0.22em] text-gold">Legal</p>
-      <h1 className="mt-2 font-display text-4xl md:text-5xl">Terms & Conditions</h1>
+      <h1 className="mt-2 font-display text-4xl md:text-5xl">Terms and Conditions</h1>
       <p className="mt-2 text-sm text-muted-foreground">Last updated: January 2026</p>
       <div className="mt-8 space-y-6 text-sm text-foreground/85 leading-relaxed">
         <Section title="1. Acceptance">By accessing this website you agree to these Terms. If you do not agree, please do not use the site.</Section>

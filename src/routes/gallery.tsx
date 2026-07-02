@@ -7,7 +7,7 @@ const HUES = [260, 220, 85, 30, 200, 50];
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — SinghBouncers Security Personals & Operations" },
+      { title: "Gallery — SinghBouncers Security Personals and Operations" },
       { name: "description", content: "A look at our Security Personals, vehicles, control rooms and the environments we protect." },
       { property: "og:title", content: "Gallery | SinghBouncers" },
       { property: "og:url", content: "/gallery" },

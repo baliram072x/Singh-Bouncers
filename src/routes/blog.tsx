@@ -13,7 +13,7 @@ const POSTS = [
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Blog — Security Insights & Field Notes | SinghBouncers" },
+      { title: "Blog — Security Insights and Field Notes | SinghBouncers" },
       { name: "description", content: "Field notes, guides and analysis from our security operations team." },
       { property: "og:title", content: "Blog | SinghBouncers" },
       { property: "og:url", content: "/blog" },
